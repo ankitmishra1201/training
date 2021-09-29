@@ -1,6 +1,8 @@
 
 # Git  training commands
 
+# Git commands starting from cloning to pushing the repo
+
 git clone https://github.com/JitenPalaparthi/training.git
 
 git status
