@@ -1,4 +1,6 @@
 
+# Git  training commands
+
 git clone https://github.com/JitenPalaparthi/training.git
 
 git status
