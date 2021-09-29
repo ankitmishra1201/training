@@ -7,10 +7,10 @@ import (
 
 func main() {
 	fmt.Println("Hello World")
-	http.HandleFunc("/", helloWorld)
+	http.HandleFunc("/", HelloWrold)
 	http.ListenAndServe(":50060", nil)
 }
 
-func helloWorld(w http.ResponseWriter, r *http.Request) {
+func HelloWrold(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintln(w, "Hello World")
 }
