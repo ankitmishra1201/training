@@ -1,0 +1,30 @@
+
+git clone https://github.com/JitenPalaparthi/training.git
+
+git status
+
+# IF there is a directory called .git then it is a git repository
+
+git branch
+
+# Check changes using git fetch
+
+git fetch origin main # git fetch always fetches headers
+
+git branch feature1
+
+git checkout feature1
+
+# git checkout -b feature1
+
+git pull origin main
+
+git log
+
+git add <file names>
+
+git commit -m "Create Go based project"
+
+git push origin feature1
+
+git branch -D feature1 # -d also can be used
